@@ -1,0 +1,60 @@
+
+
+th, td {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    align-items: center;
+    margin: 0%;
+    padding: 5px;
+}
+
+th{
+    background-color: rgb(228, 228, 228);
+}
+
+tr:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+td{
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    margin-bottom: 20px;
+}
+
+.box{
+    width: 50%;
+    font-weight: 300;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.debit{
+    color: red;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input{
+    width: 80%;
+    height: 35px;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
